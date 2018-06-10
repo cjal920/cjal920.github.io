@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Movie Title Guessing Game</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Six+Caps" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+</head>
+<body>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="navbar">GUESS THE MOVIE TITLE
+                <button onclick="startGame()" id="button">PLAY GAME</button>
+                <div id="winning-title"></div>
+            </div>
+        </div>
+    </div>
+<div class"container">
+    <div class="row">
+        <div class="col-sm-3">
+            <div><img id="image" src="" alt=""></div>
+        </div>
+        <div class="col-sm-3">
+            <div id="result"></div>
+            <div id="text">the Oscar goes to . . .</div>
+            <div id="whom"></div>
+        </div>
+        <div class="col-sm-3">
+                <div id="text">LETTERS TO GUESS</div>
+                    <div id="letters-to-guess"></div>
+                <div id="text">LETTERS GUESSED</div>
+                    <div id="letters-guessed"></div>
+        </div>
+        <div class="col-sm-3">
+                <div id="text">GUESSES REMAINING<span id="guesses-remaining"></span>
+                <div id="text">OSCARS<span id="wins"></div> 
+                <div id="text">LOSSES<span id="losses"></div>   
+        </div>
+        </div>
+    </div>
+</div>
+
+<audio id="audio-yes" autoplay>
+        <source src="" type="audio/mp3">
+</audio>
+<audio id="audio-no" autoplay>
+        <source src="" type="audio/mp3">
+</audio>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>

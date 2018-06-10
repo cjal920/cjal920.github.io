@@ -1,0 +1,63 @@
+body    {
+    font-family: 'Six Caps', sans-serif;
+    background-color: black;
+    color: #776228;
+    text-align: center;
+}
+
+.navbar {
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-top: #0c20ce 15px dashed;
+    border-bottom: #0c20ce 15px dashed;
+    color: #776228;
+    font-size: 120px;
+}
+
+#button {
+    font-size: 60px;
+    background: black;
+    color: #776228;
+    border: #0c20ce solid;
+    padding: 15px;
+    margin-top: 5px;
+}
+
+#image {
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 400px;
+    width: 300px;
+    border: #776228 3px solid;
+}
+
+#text    {
+    font-size: 50px;
+    padding: 20px;
+}
+
+#whom, 
+#result,
+#winning-title   {
+    font-size: 100px;
+    padding: 20px;
+    color: #d40415;
+}
+
+#letters-to-guess,
+#letters-guessed   {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    padding: 20px;
+}
+
+#guesses-remaining,
+#wins,
+#losses   {
+    font-size: 50px;
+    padding: 20px;
+    color: #0c20ce;
+}
+
+
+
