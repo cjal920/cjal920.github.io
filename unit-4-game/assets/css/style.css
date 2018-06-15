@@ -1,0 +1,64 @@
+body    {
+    background: black;
+    text-align: center;
+}
+
+h1  {
+    color: #d1dffa;
+    font-family: 'Righteous', cursive;
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+    text-align: left;
+}
+
+#ruby,
+#sapphire,
+#citrine,
+#emerald   {
+    height: 100px;
+    width: 100px;
+}
+
+#target, 
+#score     {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 30px;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 10px;
+    color: #d1dffa;
+    background: #020202;
+}
+
+#wins    {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: #08e62d;
+    background: #020202;
+}
+
+#losses    {
+    height: 50px;
+    width: 50px;
+    border-radius: 20px;
+    margin-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 5px;
+    color: #f50606;
+    background: #020202;
+}
+
+#verdict    {
+    font-family: 'Righteous', cursive;
+}
